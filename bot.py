@@ -30,7 +30,7 @@ def processline(line):
 
    try:
       if args[3] == "!questions":
-         questions = "%s" % Question.objects.all()
+         questions = str(Question.objects.all())
          msg(args[2], questions)
          return
 
