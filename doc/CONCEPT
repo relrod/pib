@@ -1,0 +1,3 @@
+I have a weird plan for this bot; I'd like to incorporate django into it.
+Models, settings.py, etc. The whole shebang. Then it would be very easy to control
+the database via the web.
