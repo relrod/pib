@@ -25,7 +25,7 @@ def processline(line):
       args.append(parts[1])
    
    if args[0] == "PING":
-      send("PONG" + args[1])
+      send("PONG :" + args[1])
       return
 
    try:
